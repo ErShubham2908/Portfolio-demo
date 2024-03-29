@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressCard, faAward, faFile, faHouse, faHouseChimney, faIdBadge, faNewspaper } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard, faAward, faFile, faHouse, faNewspaper } from '@fortawesome/free-solid-svg-icons'
 import Home from '../Component/Home';
 import About from '../Component/About';
 import Education from '../Component/Education';
