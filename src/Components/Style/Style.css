@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    /* background-image: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+}
+
+.Navbar_Parent{
+    width: 100vw;
+    height: 4.5em;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding-right: 1em;
+}
+
+.Navbar-First-Child{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid green; */
+    font-size: 1.6em;
+    color: white;
+    letter-spacing: .3em;
+}
+
+.Navbar-First-Child::first-letter{
+    font-size: 1.5em;
+    color: rgb(208, 248, 8);
+}
+
+.Navbar-name-last::second{
+    font-size: 1.5em;
+    color: rgb(3, 136, 105);
+}
+
+.Navbar-Second-Child{
+    display: flex;
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    font-size: 1.7em;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid rgb(230, 234, 162); */
+
+}
+
+.Navbar-Second-Child a{
+    /* border: 1px solid rgb(162, 206, 234); */
+    text-decoration: none;
+    /* color: rgb(162, 206, 234); */
+    color: rgb(255, 255, 255);
+}
+
+.Navbar-Second-Child a:hover{
+    /* border: 1px solid rgb(162, 206, 234); */
+    text-decoration: none;
+    color: rgb(162, 206, 234);
+    border: none;
+    border-bottom: 3px solid rgb(162, 206, 234);
+}
